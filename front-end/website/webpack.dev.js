@@ -17,6 +17,7 @@ module.exports = merge(common, {
     historyApiFallback: true,
     hot: true,
     overlay: true,
+    disableHostCheck: true, 
     open: true
   },
   module: {
